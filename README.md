@@ -2,7 +2,7 @@
 
 This C++ program implements the **Data Encryption Standard (DES)** algorithm for encrypting and decrypting 64-bit blocks of data using a 64-bit key (16 hex characters). It allows the user to input a key and a plaintext or ciphertext in hexadecimal format and returns the encrypted or decrypted result.
 
-## 🔐 About DES
+##  About DES
 
 DES is a symmetric-key algorithm for the encryption of digital data. It operates on 64-bit blocks and uses a 56-bit key (plus 8 parity bits) across 16 rounds of Feistel-based processing with key-dependent substitutions and permutations. This implementation follows the standard DES specification including:
 
@@ -15,33 +15,27 @@ DES is a symmetric-key algorithm for the encryption of digital data. It operates
 
 ---
 
-## 👨‍💻 Made By
+##  Made By
 
 **Miguel Cortes Muñoz**  
 Completed for self-study and experimentation with classic symmetric encryption.
 
 ---
 
-## 🧪 How to Use
-
+##  How to Use
 ### Compile
 
 Use any standard C++ compiler (C++11 or later):
 
 ```bash
 g++ -o des_tool des.cpp
+
 Run
-bash
-Copy
-Edit
+
 ./des_tool
 Sample Input/Output
 You will be prompted to select an operation and enter key and data in hexadecimal format.
 
-Example:
-java
-Copy
-Edit
 Choose operation (1 for Encryption, 2 for Decryption): 1
 Enter the key in hexadecimal (16 characters):
 133457799BBCDFF1
